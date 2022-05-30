@@ -1,0 +1,13 @@
+.rockbutton {
+    background-color: aqua;
+}
+
+.paperbutton {
+    background-color: black;
+    color: pink;
+}
+
+.scissorsbutton {
+    background-color: orange;
+    color: white;
+}

@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="RSP_JAVAS.js" defer>
+    </script>
     <title>Rock Paper Scissor Game</title>
 </head>
 <body>
-    <script src="RSP_JAVAS.js">
-    </script>
+
+<button data-selection='rock' class='rockbutton'>Rock</button>
+<button data-selection='paper' class='paperbutton'>Paper</button>
+<button data-selection='scissors' class='scissorsbutton'>Scissors</button>
+
+
+<br>
+<br>
+
+
+<div>
+    Player selection was 
+    <p class="displayedchoice" data-chooser="player"></p> 
+</div>
+<hr>
+<div>
+    Computer selection was 
+    <p class="displayedchoice" data-chooser="computer"></p> 
+</div>
+
+<hr>
+<div>
+    The Players current Score is
+    <p class="displayedchoice" data-score="player"></p> 
+</div>
+<hr>
+
+<div>
+    The computers Current Score is
+    <p class="displayedchoice" data-score="computer"></p> 
+</div>
+<hr>
+<div>
+    The Current round number is
+    <p class="displayedchoice" data-score="round"></p> 
+</div>
+<hr>
+    
 </body>
 </html>
